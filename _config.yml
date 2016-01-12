@@ -1,0 +1,40 @@
+name: My Jekyll Website
+description: my great website based on Jekyll
+meta_description: "Jekyll, Ghost, blog"
+
+#setup site author or comment this section out to disable it altogether
+################
+author: John Doe
+author-image: assets/images/author-image.png
+author-image-alt: author image
+
+#setup the cover, if you do not want any, just comment it out
+#cover: assets/images/site-cover.png
+
+markdown: redcarpet
+highlighter: pygments
+logo: false
+
+#setup pagination
+################
+gems: [jekyll-paginate]
+paginate: 6
+paginate_path: "page:num"
+
+baseurl: # the subpath of your site, e.g. /blog
+#url: "http://www.zavrel.net/jekyll" # the base hostname & protocol for your site
+#domain_name: 'http://zavrel.net'
+#google_analytics: 'UA-XXXXXXXX-X'
+
+
+#comments
+disqus-shortname: mysiteshortname
+
+
+#social media
+facebook: mynickname
+twitter: mynickname
+github: mynickname
+linkedin: false
+stackoverflow: false
+bitbucket: false
