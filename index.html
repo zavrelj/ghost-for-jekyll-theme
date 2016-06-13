@@ -4,28 +4,6 @@ title: Home
 about: 'about'
 ---
 
-<header class="main-header {% if site.cover %}" style="background-image: url({{ site.cover }}) {%else%}no-cover{% endif %}">
-    <nav class="main-nav overlay clearfix">
-            {% if page.logo %}
-                <a class="blog-logo" href="{{ site.baseurl }}">
-                    <img src="{{ page.logo }}" alt="Blog Logo" />
-                </a>
-            {% endif %}
-
-            {% include subscribe-home-bar.html %}
-    </nav>
-    <div class="vertical">
-        <div class="main-header-content inner">
-            <h1 class="page-title">{{ site.name }}</h1>
-            <h2 class="page-description">
-                {% if site.description %} {{ site.description }} {% endif %}
-            </h2>
-        </div>
-    </div>
-    <a class="scroll-down" href="#content" data-offset="-45"><i class="fa fa-1x fa-chevron-down"></i><span class="hidden">Scroll Down</span></a>
-</header>
-
-
 <main id="content" class="content" role="main">
 
 
