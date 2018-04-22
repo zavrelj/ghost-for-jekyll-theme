@@ -4,7 +4,13 @@ Theme for Jekyll based on default Ghost theme
 ## Instalation
 I suppose you already know how to use Jekyll, and that’s why you were looking for Jekyll theme, so I’m not going to describe it any further here. If you need some help with Jekyll, it’s always best to refer official website at https://jekyllrb.com
 
-In a nutshell, what you got is blueprint used for generating static pages of your website. The result is something you just grab and upload to your domain.
+In a nutshell, what you got is a blueprint used for generating static pages of your website. The result is something you just grab and upload to your domain.
+
+Grab the whole repo in ZIP form and place it to your local directory.
+Navigate to that directory and run **gem install jekyll-paginate** and **gem install redcarpet**.
+Run **jekyll build** and **jekyll serve**.
+Navigate to localhost:4000 in the web browser.
+
 
 ## Files and structure
 
