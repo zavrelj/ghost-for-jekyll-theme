@@ -11,8 +11,8 @@ author-image-alt: author image
 #setup the cover, if you do not want any, just comment it out
 #cover: assets/images/site-cover.png
 
-markdown: redcarpet
-highlighter: pygments
+markdown: kramdown
+highlighter: rouge
 logo: false
 
 #setup pagination
