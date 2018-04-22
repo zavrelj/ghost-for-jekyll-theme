@@ -7,7 +7,7 @@ I suppose you already know how to use Jekyll, and that’s why you were looking 
 In a nutshell, what you got is a blueprint used for generating static pages of your website. The result is something you just grab and upload to your domain.
 
 Grab the whole repo in ZIP form and place it to your local directory.
-Navigate to that directory and run **gem install jekyll-paginate** and **gem install redcarpet**.
+Navigate to that directory and run **gem install jekyll-paginate**.
 Run **jekyll build** and **jekyll serve**.
 Navigate to localhost:4000 in the web browser.
 
